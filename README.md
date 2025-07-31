@@ -1,1 +1,1 @@
-# Non-Gaussian-SAR-with-Missing-Data-VB
+# Non-Gaussian Simultaneous Autoregressive Models with Missing Data
