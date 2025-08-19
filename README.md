@@ -7,11 +7,18 @@ This repository contains R code for the simulation studies and real-world exampl
 
 ##  Folder Structure
 
-Simulation studies and the real-world example are organized into separate folders. Each contains:
+Simulation studies and the real-world example are organized into separate folders.
 
+Simulation-VB vs HMC: Codes for compare the accurace of VB algorithms with HMC algorithm
+Simulation-compare SEMs: Codes for compare robustness of different SEMs
+Real applications: Codes for fitting different SEMs to Lucas-1998-HP dataset.
+
+Each contains seperate 2 folders one for the analysis with full data, and one for thge analysis with misiing data.
+Each subfolde contains:
 
 - **`Source.R`** – Contains the core R code for running the algorithms.  
-- **`Implement.R`** – Implements and runs all algorithms for the selected scenario.
+- **`Implement.R`** – Contains the R code to implement all algorithms, and generate plots.
+- **SEM_MNAR_HMC.stan**: Contains the stan code to run the HMC algorithms (Only for sub folders of Simulation-VB vs HMC).
 
 ---
 
