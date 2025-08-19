@@ -4,7 +4,7 @@ This repository contains **R code** for the simulation studies and real-world ex
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 The repository is organized into simulation studies and real-world applications:
 
@@ -28,7 +28,7 @@ Each subfolder includes:
 
 ---
 
-## ▶️ Running the Scripts
+## Running the Scripts
 
 To reproduce results from the manuscript, for example **comparing VB and HMC methods with full data**:
 
@@ -44,7 +44,7 @@ For other examples, follow the same procedure:
 
 ---
 
-## ⚙️ Environment Requirements
+## Environment Requirements
 
 ### R Version
 - Tested on **R 4.3.1**  
