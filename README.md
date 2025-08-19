@@ -54,5 +54,7 @@ For other examples, follow the same procedure:
 Install required packages with:
 
 ```r
-install.packages(c("numDeriv", "Matrix", "spatialreg", 
-                   "spData", "spdep", "tictoc", "igraph"))
+install.packages(c("LaplacesDemon", "extraDistr", "igraph", "MASS", 
+                   "spdep", "tictoc", "Matrix", "mvtnorm", "coda", 
+                   "ggplot2", "mvnfast", "spatialreg", 
+                   "parallel", "doParallel"))
