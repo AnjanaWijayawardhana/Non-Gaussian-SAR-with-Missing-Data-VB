@@ -44,7 +44,7 @@ For other examples, follow the same procedure:
 
 ---
 
-## Environment Requirements
+## RStudio and Package Requirements
 
 ### R Version
 - Tested on **R 4.3.1**  
