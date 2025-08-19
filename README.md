@@ -46,9 +46,10 @@ For other examples, follow the same procedure:
 
 ## RStudio and Package Requirements
 
-### R Version
+### R Version Compatibility
 - Tested on **R 4.3.1**  
 - Compatible with **R 4.4.2**
+- Ensure your R installation is configured to compile **C++** before installing RStan.
 
 ### Required Packages
 Install required packages with:
