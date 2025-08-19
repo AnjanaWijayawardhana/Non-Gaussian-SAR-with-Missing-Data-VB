@@ -1,7 +1,7 @@
 # Non-Gaussian Simultaneous Autoregressive Models with Missing Data
 
 
-This repository contains R code for two simulations and two real-world examples presented in the main manuscript and the online supplement:
+This repository contains R code for the simulation studies and real-world examples presented in the manuscript:
 
 - **Simulation1: SEM under MAR n=625, with **75%** missing data (Sim_MAR)**
 - **Simulation2: SEM under MNAR n=625, with **75%** missing data (Sim_MNAR)**
