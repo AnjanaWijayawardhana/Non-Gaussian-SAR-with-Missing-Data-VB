@@ -8,10 +8,10 @@ This repository contains **R code** for the simulation studies and real-world ex
 
 The repository is organized into simulation studies and real-world applications:
 
-- **`Simulation-VB vs HMC`**  
+- **`Simulations-VB vs HMC`**  
   Code to compare the accuracy of Variational Bayes (VB) algorithms with Hamiltonian Monte Carlo (HMC).
 
-- **`Simulation-compare SEMs`**  
+- **`Simulations-compare SEMs`**  
   Code to evaluate the robustness of different Spatial Error Models (SEMs).
 
 - **`Real applications`**  
@@ -32,7 +32,7 @@ Each subfolder includes:
 
 To reproduce results from the manuscript, for example **comparing VB and HMC methods with full data**:
 
-1. Download the **`Simulation-VB vs HMC`** folder.  
+1. Download the **`Simulations-VB vs HMC`** folder.  
 2. Open the **`Full data`** subfolder.  
 3. Set your **working directory** to this subfolder in R.  
 4. Run the **`Implement.R`** script.  
