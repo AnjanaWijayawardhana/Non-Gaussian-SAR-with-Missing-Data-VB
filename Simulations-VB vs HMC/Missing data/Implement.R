@@ -88,7 +88,7 @@ toc()
 
 
 
-traceplot(fit.YJSEMGau.MNNR.HMC, main="Traceplot of MCMC Chains")
+rstan::traceplot(fit.YJSEMGau.MNNR.HMC, main="Traceplot of MCMC Chains")
 
 
 mcmc.YJSEMGau.chains<-as.matrix(fit.YJSEMGau.MNNR.HMC)
@@ -563,6 +563,7 @@ pp.con.YJSEMGau<- ggplot(data = vb1.trojectry_melted, aes(x = Time, y = value, c
   )+ggtitle("YJ-SEM-Gau")+ylim(-3.2,1.5)
 
 pp.con.YJSEMGau
+
 
 
 
