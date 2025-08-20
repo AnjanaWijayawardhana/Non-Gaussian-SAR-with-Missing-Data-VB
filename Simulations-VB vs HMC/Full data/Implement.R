@@ -55,7 +55,7 @@ toc()
 
 
 p<-ncol(x)
-traceplot(fit.YJSEMGau.HMC, main="Traceplot of MCMC Chains")
+rstan::traceplot(fit.YJSEMGau.HMC, main="Traceplot of MCMC Chains")
 mcmc.YJSEMGau.chains <- rstan::extract(fit.YJSEMGau.HMC) # Extract posterior sample from the HMC output.
 HMC.YJSEMGau.theta.chains<-cbind(mcmc.YJSEMGau.chains$beta,exp(mcmc.YJSEMGau.chains$omegadash),
                                (exp(mcmc.YJSEMGau.chains$rhodash) -1)/(exp(mcmc.YJSEMGau.chains$rhodash) +1),
@@ -458,6 +458,7 @@ pp.con.YJSEMGau
 # ggsave(
 #   "con_plots/con_VB_vs_HMC_VB_full.png" #ev means evaluate SEMs
 #   ,plot = pp.con.YJSEMGau,width = 1500,height = 1000,units = "px")
+
 
 
 
