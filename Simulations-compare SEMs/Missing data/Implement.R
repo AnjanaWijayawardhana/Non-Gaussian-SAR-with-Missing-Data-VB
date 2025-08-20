@@ -80,6 +80,7 @@ z=as.matrix(z)
 # to obtain YJ-SEM-t data.
 y=t_inverse(z,gama) 
 
+xm<-rlnorm(n) # Xm is from log normal; serves as a covariate of the missing data model
 
 # -----------------------------------------------------------
 # 3. Generate missing values according to MNAR
@@ -830,6 +831,7 @@ DIC.5.7.SEMGau$DIC5
 DIC.5.7.YJSEMGau$DIC5
 DIC.5.7.noninfo.SEMt$DIC5
 DIC.5.7.YJ.SEM.t.noninfo.MNAR$DIC5
+
 
 
 
