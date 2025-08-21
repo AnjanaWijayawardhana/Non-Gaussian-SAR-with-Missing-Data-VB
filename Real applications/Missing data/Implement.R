@@ -679,7 +679,7 @@ library(doParallel)
 
 # Set simulation parameters
 N1 <- 50        # Number of MCMC iterations per draw
-n.thetas <- 100 # Number of posterior parameter samples (theta_i) 
+n.thetas <- 1000 # Number of posterior parameter samples (theta_i) 
 # used to generate y_u samples
 
 # Initialize parallel backend
@@ -767,6 +767,7 @@ DIC.5.7.SEMGau$DIC5
 DIC.5.7.YJSEMGau$DIC5
 DIC.5.7.noninfo.SEMt$DIC5
 DIC.5.7.YJ.SEM.t.noninfo.MNAR$DIC5
+
 
 
 
