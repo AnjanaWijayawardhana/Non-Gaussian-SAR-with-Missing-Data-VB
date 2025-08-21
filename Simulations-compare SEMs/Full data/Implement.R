@@ -98,7 +98,7 @@ gama.dash.start<-log((gama.start/(2-gama.start))+0.000001) # Add 0.000001, to ov
 # -----------------------------------------------------------
 
 
-N=150
+N=15000 # The number of VB iterations.
 
 
 ## 4.1 SEM with Gaussian errors
@@ -571,4 +571,5 @@ DIC.SEM.Gau$DIC1
 DIC.SEM.Gau.t$DIC1
 DIC.SEM.Gau.YJ$DIC1
 DIC.YJ.SEM.t$DIC1
+
 
