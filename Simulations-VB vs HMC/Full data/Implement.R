@@ -47,7 +47,7 @@ stan.data.list<-make.SATN.data(x,w,y) # Data to be included in the SATN function
 ###################### Fit YJ-SEM-Gau using HMC
 
 filepath<-"YJ_SEM_Gau_full.stan"
-N<-100 # number of HMC samples
+N<-10000 # number of HMC samples
 tic()
 fit.YJSEMGau.HMC<-stan(file = filepath,
                      data = stan.data.list,chains = 1,iter = N) # default warm upsize=iter/2.
@@ -458,6 +458,7 @@ pp.con.YJSEMGau
 # ggsave(
 #   "con_plots/con_VB_vs_HMC_VB_full.png" #ev means evaluate SEMs
 #   ,plot = pp.con.YJSEMGau,width = 1500,height = 1000,units = "px")
+
 
 
 
