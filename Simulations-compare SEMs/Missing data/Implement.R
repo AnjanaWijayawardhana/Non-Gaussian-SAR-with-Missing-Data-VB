@@ -80,7 +80,7 @@ z=as.matrix(z)
 # to obtain YJ-SEM-t data.
 y=t_inverse(z,gama) 
 
-xm<-rlnorm(n) # Xm is from log normal; serves as a covariate of the missing data model
+xm<-rlnorm(ncol(w)) # Xm is from log normal; serves as a covariate of the missing data model
 
 # -----------------------------------------------------------
 # 3. Generate missing values according to MNAR
@@ -164,7 +164,7 @@ abline(a=0,b=1,col="red") # Plot stsating yu vs true yu
 
 
 
-N  <- 300  # Number of HVB iterations
+N  <- 15000  # Number of HVB iterations
 N1 <- 5    # Number of MCMC iterations within each HVB iteration
 bsize<-floor(nu*0.1) # Block size (10% of nu, rounded down)
 bsize.upall<-bsize
@@ -831,6 +831,7 @@ DIC.5.7.SEMGau$DIC5
 DIC.5.7.YJSEMGau$DIC5
 DIC.5.7.noninfo.SEMt$DIC5
 DIC.5.7.YJ.SEM.t.noninfo.MNAR$DIC5
+
 
 
 
