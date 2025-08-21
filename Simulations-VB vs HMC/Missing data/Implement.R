@@ -78,7 +78,7 @@ stan.data.list<-make.SATN.data(x,xm,w,m,yo) # Data to be included in the SATN fu
 
 filepath<-"YJ_SEM_Gau_miss.stan"
 
-N<-2500
+N<-10000
 
 tic()
 fit.YJSEMGau.MNNR.HMC<-stan(file = filepath,
@@ -563,6 +563,7 @@ pp.con.YJSEMGau<- ggplot(data = vb1.trojectry_melted, aes(x = Time, y = value, c
   )+ggtitle("YJ-SEM-Gau")+ylim(-3.2,1.5)
 
 pp.con.YJSEMGau
+
 
 
 
