@@ -150,7 +150,7 @@ toc()
 #SEM-Gau
 
 nparas=length(fit.SEM.Gau$mu)
-sample.size=100
+sample.size=1000
 SEM.Gau.theta.sample<-matrix(rep(0,sample.size*(nparas)),ncol = nparas) # samples in transformed parameter space
 
 for(i in 1:sample.size){ 
@@ -571,5 +571,6 @@ DIC.SEM.Gau$DIC1
 DIC.SEM.Gau.t$DIC1
 DIC.SEM.Gau.YJ$DIC1
 DIC.YJ.SEM.t$DIC1
+
 
 
