@@ -134,7 +134,7 @@ abline(a=0,b=1,col="red") # Plot stsating yu vs true yu
 
 
 
-N  <- 200  # Number of HVB iterations
+N  <- 20000  # Number of HVB iterations
 N1 <- 5    # Number of MCMC iterations within each HVB iteration
 bsize<-floor(nu*0.1) # Block size (10% of nu, rounded down)
 bsize.upall<-bsize
@@ -767,6 +767,7 @@ DIC.5.7.SEMGau$DIC5
 DIC.5.7.YJSEMGau$DIC5
 DIC.5.7.noninfo.SEMt$DIC5
 DIC.5.7.YJ.SEM.t.noninfo.MNAR$DIC5
+
 
 
 
