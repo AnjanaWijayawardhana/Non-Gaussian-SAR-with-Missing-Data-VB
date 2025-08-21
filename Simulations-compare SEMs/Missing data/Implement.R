@@ -335,7 +335,7 @@ for(i in 1:sample.size){
 }
 
 YJ.SEM.t.n.info.theta.sample<-YJ.SEM.t.n.info.lambda.dash.theta.sample[,-(1:n)]
-colnames(YJ.SEM.t.n.info.theta.sample)<-c(rep("betai",p),"sigma2","rho","nu","gama",rep("psi",3))
+colnames(YJ.SEM.t.n.info.theta.sample)<-c(rep("bi",ncol(x)+1),"sigma2","rho","nu","gama",rep("psi",3))
 head(YJ.SEM.t.n.info.theta.sample)
 round(apply(YJ.SEM.t.n.info.theta.sample, 2, mean),4)
 
@@ -831,6 +831,7 @@ DIC.5.7.SEMGau$DIC5
 DIC.5.7.YJSEMGau$DIC5
 DIC.5.7.noninfo.SEMt$DIC5
 DIC.5.7.YJ.SEM.t.noninfo.MNAR$DIC5
+
 
 
 
